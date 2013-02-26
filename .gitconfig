@@ -1,0 +1,42 @@
+[user]
+	email = s.matsumoto0115@gmail.com
+	name = shu0115
+[color]
+	ui = auto
+[alias]
+	st = "status -sb"
+	br = branch
+	co = checkout
+	ad = add
+	cm = commit
+	mg = merge
+	ft = fetch
+	df = diff
+	pl = pull
+	ph = push
+	lg = log
+	sw = show
+	gr = "grep -n"
+	sh = stash
+	rt = remote
+	cn = config
+	rb = rebase
+	cf = config
+	cl = clone
+	lgg = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+	dff = diff --name-only
+	dfw = diff --word-diff
+	stsb = status -sb
+	rs = reset
+	bl = blame
+	adp = add -p
+	chp = cherry-pick
+	rsall = reset --hard HEAD
+[core]
+	excludesfile = /Users/shu/.gitignore
+[github]
+	user = shu0115
+	token = 6ef8395fecf207165f1a82178ae1b984
+[pull]
+	rebase = true
+
