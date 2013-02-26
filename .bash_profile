@@ -36,6 +36,7 @@ alias bs="bundle show"
 # Git
 alias g="git"
 alias gpom="git push origin master"
+alias gpod="git push origin dev"
 alias gphm="git push heroku master"
 alias gfod="git fetch origin design:design"
 
