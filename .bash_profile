@@ -17,6 +17,7 @@ alias s="subl"
 alias r="rails"
 alias rs="bundle exec rails s"
 alias rsp="bundle exec rails s puma"
+alias rc="bundle exec rails c"
 alias rp="bundle exec rspec"
 alias rr="rake routes"
 alias rn="rake notes"
@@ -35,10 +36,11 @@ alias bs="bundle show"
 
 # Git
 alias g="git"
-alias gpom="git push origin master"
-alias gpod="git push origin dev"
 alias gphm="git push heroku master"
-alias gfod="git fetch origin design:design"
+alias gphd="git push heroku dev:master"
+alias gpom="git push origin master"
+alias gpodv="git push origin dev"
+alias gfods="git fetch origin design:design"
 
 # Heroku
 alias h="heroku"
