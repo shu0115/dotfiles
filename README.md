@@ -7,3 +7,6 @@ git add . && git commit -m "Update"
 git push origin master
 ```
 
+```
+source ~/.bash_profile
+```
