@@ -22,6 +22,7 @@ alias rp="bundle exec rspec"
 alias rr="rake routes"
 alias rn="rake notes"
 alias rpre="rake generate && rake preview"
+alias rbp="rails_best_practices ."
 
 # Redis
 alias res="redis-server /usr/local/etc/redis.conf"
@@ -36,10 +37,13 @@ alias bs="bundle show"
 
 # Git
 alias g="git"
+
 alias gphm="git push heroku master"
-alias gphd="git push heroku dev:master"
+alias gphdm="git push heroku dev:master"
+
 alias gpom="git push origin master"
 alias gpodv="git push origin dev"
+alias gpodm="git push origin dev:master"
 alias gfods="git fetch origin design:design"
 
 # Heroku
