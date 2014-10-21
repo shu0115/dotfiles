@@ -1,5 +1,6 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
@@ -9,6 +10,7 @@ alias lsl="ls -l"
 alias lsa="ls -la"
 alias wi="which"
 alias gr="grep"
+alias ds="dashing start"
 
 # SublimeText
 alias s="subl"
@@ -39,10 +41,10 @@ alias bs="bundle show"
 alias g="git"
 
 alias gphm="git push heroku master"
-alias gphdm="git push heroku dev:master"
+alias gphd="git push heroku dev:master"
 
 alias gpom="git push origin master"
-alias gpodv="git push origin dev"
+alias gpod="git push origin dev"
 alias gpodm="git push origin dev:master"
 alias gfods="git fetch origin design:design"
 
@@ -53,8 +55,9 @@ alias ho="heroku open"
 alias hc="heroku config"
 alias hi="heroku info"
 alias hr="heroku restart"
-alias hmg="heroku run rake db:migrate"
-alias hrc="heroku run rails c"
+alias hrdmg="heroku run rake db:migrate"
+alias hrrc="heroku run rails c"
+alias hrl="heroku releases"
 
 # git-completion
 source /usr/local/etc/bash_completion.d/git-prompt.sh
