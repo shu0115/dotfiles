@@ -36,6 +36,8 @@
 [core]
 	excludesfile = ~/.gitignore
         attributesfile = ~/.gitattributes_global
+        pager = less -S
+
 [github]
 	user = shu0115
 	token = 6ef8395fecf207165f1a82178ae1b984
