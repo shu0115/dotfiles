@@ -17,7 +17,7 @@
 	lg = log
 	sw = show
 	gr = "grep -n"
-	sh = stash
+        sh = "stash -u"
 	rt = remote
 	cn = config
 	rb = rebase
