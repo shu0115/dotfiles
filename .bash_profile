@@ -2,9 +2,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
 # Command
 alias lsl="ls -l"
 alias lsa="ls -la"
@@ -93,4 +90,3 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1="${START_COLOR2}\$(date +'%Y/%m/%d %H:%M')${END_COLOR} ${START_COLOR3}\W${END_COLOR} \$(__git_ps1 '[${START_COLOR1}%s${END_COLOR}]') \$ "
-
