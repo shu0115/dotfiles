@@ -4,6 +4,7 @@ eval "$(rbenv init -)"
 # Command
 alias c.="cd ../"
 alias ll="ls -l"
+alias l="ls -l"
 alias la="ls -la"
 alias wi="which"
 alias gr="grep"
