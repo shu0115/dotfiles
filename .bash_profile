@@ -28,7 +28,7 @@ alias rbp="rails_best_practices ."
 alias res="redis-server /usr/local/etc/redis.conf"
 
 # Bundle
-alias bi="bundle install"
+alias bi="bundle install --without production"
 alias bip="bundle install --without production"
 alias bips="bundle install --without production staging"
 alias bu="bundle update"
