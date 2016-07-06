@@ -1,8 +1,8 @@
 ## Dotfiles Backup
 
 ```
-cd ~/labo/dotfiles
-ruby cp_dotfiles.rb
+cd ~/work/dotfiles
+ruby backup_dotfiles.rb
 git add . && git commit -m "Update"
 git push origin master
 ```
