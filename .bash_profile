@@ -1,5 +1,5 @@
-export PATH=$HOME/.nodebrew/current/bin:$PATH
 eval "$(rbenv init -)"
+eval "$(direnv hook bash)"
 
 # Command
 alias c.="cd ../"
@@ -23,6 +23,7 @@ alias rr="rake routes"
 alias rn="rake notes"
 alias rpre="rake generate && rake preview"
 alias rbp="rails_best_practices ."
+alias fs="foreman start"
 
 # Redis
 alias res="redis-server /usr/local/etc/redis.conf"
@@ -57,6 +58,9 @@ alias hrdmg="heroku run rake db:migrate"
 alias hrrc="heroku run rails c"
 alias hrl="heroku releases"
 
+# Docker
+alias dc="docker-compose"
+
 # git-completion
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
@@ -80,10 +84,10 @@ LIGHT_CYAN="1;36"
 WHITE="1;37"
 
 # Color Setting
-START_COLOR1="\e[${BLUE}m"
-START_COLOR2="\e[${CYAN}m"
-START_COLOR3="\e[${GREEN}m"
-END_COLOR="\e[0m"
+START_COLOR1="\[\e[${BLUE}m\]"
+START_COLOR2="\[\e[${CYAN}m\]"
+START_COLOR3="\[\e[${GREEN}m\]"
+END_COLOR="\[\e[0m\]"
 
 # Prompt
 GIT_PS1_SHOWUPSTREAM=true
@@ -91,4 +95,11 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1="${START_COLOR2}\$(date +'%Y/%m/%d %H:%M')${END_COLOR} ${START_COLOR3}\W${END_COLOR} \$(__git_ps1 '[${START_COLOR1}%s${END_COLOR}]') \$ "
+
+export PATH="$HOME/.ndenv/bin:$PATH"
+eval "$(ndenv init -)"
+export PATH="$PATH:`yarn global bin`"
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
