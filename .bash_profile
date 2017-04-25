@@ -11,6 +11,8 @@ alias ds="dashing start"
 
 # SublimeText
 alias s="subl"
+export EDITOR="vi"
+export BUNDLER_EDITOR="subl"
 
 # Rails
 alias r="rails"
