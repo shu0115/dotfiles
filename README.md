@@ -7,7 +7,7 @@ git add . && git commit -m "Update"
 git push origin master
 ```
 
-## Dotfiles Copu
+## Dotfiles Copy
 
 ```
 cd ~/work/dotfiles
