@@ -7,6 +7,13 @@ git add . && git commit -m "Update"
 git push origin master
 ```
 
+## Dotfiles Copu
+
+```
+cd ~/work/dotfiles
+cp .bash_profile ~/.bash_profile
+```
+
 ----
 
 ```
